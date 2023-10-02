@@ -25,7 +25,7 @@ const CartProvider = ({ children }) => {
   
     setTotal(totalPrice);
     setItemAmount(totalAmount);
-    
+    setCart(savedCart)
   }, [cart]); 
    
   //the cart here will re-run whenever the cart state changes. This ensures that itemAmount is updated whenever items are added or removed from the cart.
