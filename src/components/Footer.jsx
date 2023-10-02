@@ -14,7 +14,7 @@ const Footer = () => {
                   <img src={Logo} className='w-20 h-20'/>
                   <span className="self-center text-2xl text-pink-500 
                   font-bold whitespace-nowrap dark:text-white">
-                    ShopMall
+                    RubyMall
                   </span>
               </Link>
           </div>
@@ -56,7 +56,7 @@ const Footer = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" className="hover:underline">ShopMall™</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" className="hover:underline">RubyMall™</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
