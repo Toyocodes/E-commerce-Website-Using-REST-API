@@ -29,8 +29,9 @@ const Header = () => {
       justify-between h-full'>
         {/* logo */}
         <Link to={'/'}>
-            <div>
+            <div className='text-pink-500 font-bold'>
               <img src={Logo} alt="" className='w-10 h-10' />
+              ShopMall™
             </div>
         </Link>   
         {/* cart */}
