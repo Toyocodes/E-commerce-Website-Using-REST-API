@@ -27,7 +27,8 @@ const ProductDetails = () => {
 
   const {title, price, description, image} = product
 
-  return <section className='pt-48 lg:pt-52 pb-12 lg:py-32 h-screen flex items-center'>
+  return (
+  <section className='pt-48 lg:pt-52 pb-12 lg:py-32 h-screen flex items-center'>
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row items-center'>
           {/* image */}
@@ -53,7 +54,8 @@ const ProductDetails = () => {
           </div>
       </div>
     </div>
-    </section>;
+    </section>
+    )
 };
 
 export default ProductDetails;
